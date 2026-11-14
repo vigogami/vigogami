@@ -110,7 +110,7 @@ function header() {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t d">
   <title id="t">${NAME} (@${LOGIN})</title>
-  <desc id="d">Builds open-source tools for apps that AI agents use: Kitsuden, its kons, the tallao UI kit and Inti.js.</desc>
+  <desc id="d">Data and integration architect. Connects the systems companies already run and adds AI to them. Open source: Kitsuden, its kons, the tallao UI kit and Inti.js.</desc>
   <defs>
     <style>${FONTS}
       .handle{font:500 15px ${MONO};letter-spacing:4px;fill:#ff2d6f}
@@ -150,10 +150,10 @@ function header() {
   </g>
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="26" fill="none" stroke="url(#border)" stroke-width="2"/>
 
-  <g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@${LOGIN.toUpperCase()}</text></g>
+  <g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@${LOGIN.toUpperCase()} · DATA &amp; INTEGRATION ARCHITECT</text></g>
   <g class="rise" style="animation-delay:.15s"><text x="62" y="150" class="name" fill="url(#brand)">${NAME}</text></g>
-  <g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I build the backend layer that AI agents work through.</text></g>
-  <g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">open source · TypeScript · Svelte · Astro · PostgreSQL<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
+  <g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I connect the systems companies already run, and add AI to them.</text></g>
+  <g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">integrations · data pipelines · AI agents · Python · TypeScript<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
   ${chipSvg}
 
   <g class="rise" style="animation-delay:.5s">${links}${nodeSvg}</g>
