@@ -40,10 +40,10 @@
 <circle class="drift2" cx="1050" cy="330" r="280" fill="url(#gk)"/>
 </g>
 <rect x="1" y="1" width="1198" height="338" rx="26" fill="none" stroke="url(#border)" stroke-width="2"/>
-<g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@VIGOGAMI · DATA &amp; INTEGRATION ARCHITECT</text></g>
+<g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@VIGOGAMI</text></g>
 <g class="rise" style="animation-delay:.15s"><text x="62" y="150" class="name" fill="url(#brand)">Victor Antinori Broce</text></g>
-<g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I connect the systems companies already run, and add AI to them.</text></g>
-<g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">integrations · data pipelines · AI agents · Python · TypeScript<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
+<g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I build the backend layer that AI agents work through.</text></g>
+<g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">open source · TypeScript · Svelte · Astro · PostgreSQL<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
 <g class="rise" style="animation-delay:0.55s">
 <rect x="64" y="262" width="110.8" height="32" rx="16" fill="#ffffff" fill-opacity=".04" stroke="#a855f7" stroke-opacity=".45"/>
 <circle cx="80" cy="278" r="4.5" fill="#a855f7"/>
@@ -90,6 +90,6 @@
 <circle cx="865" cy="262" r="25" fill="url(#nd4)" opacity=".14" class="pulse" style="animation-delay:2.4s;transform-origin:865px 262px"/>
 <circle cx="865" cy="262" r="15" fill="#09090b" stroke="url(#nd4)" stroke-width="2.2"/>
 <circle cx="865" cy="262" r="4.5" fill="url(#nd4)"/>
-<text x="865" y="297" class="node" text-anchor="middle">agents</text></g>
+<text x="865" y="297" class="node" text-anchor="middle">ktg</text></g>
 <text x="1170" y="322" class="tiny" text-anchor="end">GITHUB.COM/VIGOGAMI</text>
 </svg>

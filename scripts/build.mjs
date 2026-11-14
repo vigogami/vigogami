@@ -81,7 +81,7 @@ function header() {
     { x: 870, y: 78, r: 15, label: "kons", c: ["#ff2d6f", "#c084fc"] },
     { x: 1112, y: 84, r: 15, label: "tallao", c: ["#b197fc", "#ff8a3d"] },
     { x: 1110, y: 262, r: 15, label: "Inti", c: ["#facc15", "#ef4444"] },
-    { x: 865, y: 262, r: 15, label: "agents", c: ["#e4e4e7", "#71717a"] },
+    { x: 865, y: 262, r: 15, label: "ktg", c: ["#e4e4e7", "#71717a"] },
   ];
   const hub = nodes[0];
   const links = nodes.slice(1).map((n, i) => {
@@ -150,10 +150,10 @@ function header() {
   </g>
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="26" fill="none" stroke="url(#border)" stroke-width="2"/>
 
-  <g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@${LOGIN.toUpperCase()} · DATA &amp; INTEGRATION ARCHITECT</text></g>
+  <g class="rise" style="animation-delay:.05s"><text x="64" y="78" class="handle">@${LOGIN.toUpperCase()}</text></g>
   <g class="rise" style="animation-delay:.15s"><text x="62" y="150" class="name" fill="url(#brand)">${NAME}</text></g>
-  <g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I connect the systems companies already run, and add AI to them.</text></g>
-  <g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">integrations · data pipelines · AI agents · Python · TypeScript<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
+  <g class="rise" style="animation-delay:.3s"><text x="64" y="194" class="tag">I build the backend layer that AI agents work through.</text></g>
+  <g class="rise" style="animation-delay:.42s"><text x="64" y="232" class="mono">open source · TypeScript · Svelte · Astro · PostgreSQL<tspan class="cursor" fill="#ff2d6f"> ▍</tspan></text></g>
   ${chipSvg}
 
   <g class="rise" style="animation-delay:.5s">${links}${nodeSvg}</g>

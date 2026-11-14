@@ -1,4 +1,4 @@
-<a href="https://github.com/vigogami"><img src="assets/header.svg" width="100%" alt="Victor Antinori Broce (@vigogami), data and integration architect. I connect the systems companies already run, and add AI to them."></a>
+<a href="https://github.com/vigogami"><img src="assets/header.svg?v=3" width="100%" alt="Victor Antinori Broce (@vigogami). I build the backend layer that AI agents work through. Kitsuden, kons, tallao, Inti and ktg."></a>
 
 **Data & integration architect, and the author of [Kitsuden](https://github.com/Kitsuden/kitsuden).** Most of my work sits between systems: getting data out of the programs a company already runs, moving it where it is useful, and putting AI on top without rewriting what works. Kitsuden is that experience turned into open source: the backend I wanted for letting AI agents into real systems safely.
 
