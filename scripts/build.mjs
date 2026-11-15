@@ -285,7 +285,7 @@ function stats({ total, current, longest, firstDay, today }) {
       <text x="${x}" y="174" class="sub" text-anchor="middle">${sub}</text>
     </g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t">
-  <title id="t">${total} contributions since ${fmt(firstDay)}. Current streak ${current.n} days, longest ${longest.n} days.</title>
+  <title id="t">${total} contributions since ${fmt(firstDay)}. Current streak ${current.n} day${current.n === 1 ? "" : "s"}, longest ${longest.n} day${longest.n === 1 ? "" : "s"}.</title>
   <defs>
     <style>${FONTS}
       .big{font:700 42px ${SANS};fill:#fafafa}
